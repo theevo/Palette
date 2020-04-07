@@ -44,7 +44,7 @@ extension UIView {
         }
         
         if let height = height {
-            widthAnchor.constraint(equalToConstant: height).isActive = true
+            heightAnchor.constraint(equalToConstant: height).isActive = true
         }
     }
 }
