@@ -20,6 +20,7 @@
 		ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E101243CECD900560965 /* UIViewExtension.swift */; };
 		ACA5E104243CF1E500560965 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E103243CF1E500560965 /* UIColor.swift */; };
 		ACA5E106243CF52200560965 /* PaletteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */; };
+		ACA5E108243D03BA00560965 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E107243D03BA00560965 /* ColorPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		ACA5E101243CECD900560965 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		ACA5E103243CF1E500560965 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
+		ACA5E107243D03BA00560965 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				AC75EEB7243CE2820036763F /* PaletteViewController.swift */,
 				ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */,
+				ACA5E107243D03BA00560965 /* ColorPaletteView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */,
 				3EBC0914243CCF6500A2032C /* AppDelegate.swift in Sources */,
 				3EBC0916243CCF6500A2032C /* SceneDelegate.swift in Sources */,
+				ACA5E108243D03BA00560965 /* ColorPaletteView.swift in Sources */,
 				ACA5E104243CF1E500560965 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
