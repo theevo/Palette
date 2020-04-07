@@ -17,6 +17,9 @@
 		3EBC0937243CCFDC00A2032C /* UnsplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0931243CCFDB00A2032C /* UnsplashService.swift */; };
 		3EBC0938243CCFDC00A2032C /* ImaggaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0933243CCFDB00A2032C /* ImaggaService.swift */; };
 		AC75EEB8243CE2820036763F /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75EEB7243CE2820036763F /* PaletteViewController.swift */; };
+		ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E101243CECD900560965 /* UIViewExtension.swift */; };
+		ACA5E104243CF1E500560965 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E103243CF1E500560965 /* UIColor.swift */; };
+		ACA5E106243CF52200560965 /* PaletteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		3EBC0931243CCFDB00A2032C /* UnsplashService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashService.swift; sourceTree = "<group>"; };
 		3EBC0933243CCFDB00A2032C /* ImaggaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaggaService.swift; sourceTree = "<group>"; };
 		AC75EEB7243CE2820036763F /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		ACA5E101243CECD900560965 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		ACA5E103243CF1E500560965 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		3EBC0912243CCF6500A2032C /* PaletteStarter */ = {
 			isa = PBXGroup;
 			children = (
+				ACA5E100243CECB100560965 /* Extensions */,
 				AC75EEB6243CE2580036763F /* ViewControllers */,
 				3EBC0932243CCFDB00A2032C /* ImaggaService */,
 				3EBC092C243CCFDB00A2032C /* Models */,
@@ -115,8 +122,18 @@
 			isa = PBXGroup;
 			children = (
 				AC75EEB7243CE2820036763F /* PaletteViewController.swift */,
+				ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACA5E100243CECB100560965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5E101243CECD900560965 /* UIViewExtension.swift */,
+				ACA5E103243CF1E500560965 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +212,11 @@
 				3EBC0934243CCFDC00A2032C /* ImaggaColor.swift in Sources */,
 				3EBC0936243CCFDC00A2032C /* UnsplashRoute.swift in Sources */,
 				3EBC0938243CCFDC00A2032C /* ImaggaService.swift in Sources */,
+				ACA5E106243CF52200560965 /* PaletteTableViewCell.swift in Sources */,
+				ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */,
 				3EBC0914243CCF6500A2032C /* AppDelegate.swift in Sources */,
 				3EBC0916243CCF6500A2032C /* SceneDelegate.swift in Sources */,
+				ACA5E104243CF1E500560965 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

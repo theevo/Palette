@@ -53,6 +53,10 @@ class PaletteViewController: UIViewController {
     
     let paletteTableView: UITableView = UITableView()
     
+    var buttons: [UIButton] {
+        return [featuredButton, randomButton, doubleRainbowButton]
+    }
+    
     
     // MARK: - Lifecycle
     
@@ -66,7 +70,19 @@ class PaletteViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemBlue
+        activateButtons()
+        paletteTableView.anchor(top: buttonStackView.bottomAnchor,
+                                trailing: safeArea.trailingAnchor,
+                                bottom: safeArea.bottomAnchor,
+                                leading: safeArea.leadingAnchor,
+                                paddingTop: 8,
+                                paddingRight: 0,
+                                paddingBottom: 0,
+                                paddingLeft: 0)
     }
+    
+    
+    // MARK: - UI Setup
     
     func addAllSubView() {
         view.addSubview(featuredButton)
@@ -79,23 +95,20 @@ class PaletteViewController: UIViewController {
     func setupStackView() {
         buttonStackView.translatesAutoresizingMaskIntoConstraints = false // going full manual control. "we know what we're doing. ;)"
         buttonStackView.addArrangedSubview(featuredButton)
-        buttonStackView.addArrangedSubview(randomButton)
         buttonStackView.addArrangedSubview(doubleRainbowButton)
+        buttonStackView.addArrangedSubview(randomButton)
         
         buttonStackView.topAnchor.constraint(equalTo: safeArea.topAnchor).isActive = true
         buttonStackView.leadingAnchor.constraint(equalTo: safeArea.leadingAnchor, constant: 16).isActive = true
         buttonStackView.trailingAnchor.constraint(equalTo: safeArea.trailingAnchor, constant: -16).isActive = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func activateButtons() {
+        buttons.forEach{$0.addTarget(self, action: #selector(searchButtonTapped(sender:)), for: .touchUpInside)}
     }
-    */
+    
+    @objc func searchButtonTapped(sender: UIButton) {
+        print("Tapped button")
+    }
 
 }
