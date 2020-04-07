@@ -11,13 +11,16 @@
 		3EBC0916243CCF6500A2032C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0915243CCF6500A2032C /* SceneDelegate.swift */; };
 		3EBC091D243CCF6700A2032C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC091C243CCF6700A2032C /* Assets.xcassets */; };
 		3EBC0920243CCF6700A2032C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC091E243CCF6700A2032C /* LaunchScreen.storyboard */; };
-		3EBC092A243CCFB000A2032C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC0928243CCFB000A2032C /* Main.storyboard */; };
-		3EBC092B243CCFB000A2032C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0929243CCFB000A2032C /* ViewController.swift */; };
 		3EBC0934243CCFDC00A2032C /* ImaggaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC092D243CCFDB00A2032C /* ImaggaColor.swift */; };
 		3EBC0935243CCFDC00A2032C /* UnsplashPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC092E243CCFDB00A2032C /* UnsplashPhoto.swift */; };
 		3EBC0936243CCFDC00A2032C /* UnsplashRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0930243CCFDB00A2032C /* UnsplashRoute.swift */; };
 		3EBC0937243CCFDC00A2032C /* UnsplashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0931243CCFDB00A2032C /* UnsplashService.swift */; };
 		3EBC0938243CCFDC00A2032C /* ImaggaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC0933243CCFDB00A2032C /* ImaggaService.swift */; };
+		AC75EEB8243CE2820036763F /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75EEB7243CE2820036763F /* PaletteViewController.swift */; };
+		ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E101243CECD900560965 /* UIViewExtension.swift */; };
+		ACA5E104243CF1E500560965 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E103243CF1E500560965 /* UIColor.swift */; };
+		ACA5E106243CF52200560965 /* PaletteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */; };
+		ACA5E108243D03BA00560965 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E107243D03BA00560965 /* ColorPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +30,16 @@
 		3EBC091C243CCF6700A2032C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EBC091F243CCF6700A2032C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBC0921243CCF6700A2032C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EBC0928243CCFB000A2032C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		3EBC0929243CCFB000A2032C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EBC092D243CCFDB00A2032C /* ImaggaColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaggaColor.swift; sourceTree = "<group>"; };
 		3EBC092E243CCFDB00A2032C /* UnsplashPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashPhoto.swift; sourceTree = "<group>"; };
 		3EBC0930243CCFDB00A2032C /* UnsplashRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashRoute.swift; sourceTree = "<group>"; };
 		3EBC0931243CCFDB00A2032C /* UnsplashService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashService.swift; sourceTree = "<group>"; };
 		3EBC0933243CCFDB00A2032C /* ImaggaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaggaService.swift; sourceTree = "<group>"; };
+		AC75EEB7243CE2820036763F /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		ACA5E101243CECD900560965 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		ACA5E103243CF1E500560965 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
+		ACA5E107243D03BA00560965 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +72,8 @@
 		3EBC0912243CCF6500A2032C /* PaletteStarter */ = {
 			isa = PBXGroup;
 			children = (
-				3EBC0928243CCFB000A2032C /* Main.storyboard */,
-				3EBC0929243CCFB000A2032C /* ViewController.swift */,
+				ACA5E100243CECB100560965 /* Extensions */,
+				AC75EEB6243CE2580036763F /* ViewControllers */,
 				3EBC0932243CCFDB00A2032C /* ImaggaService */,
 				3EBC092C243CCFDB00A2032C /* Models */,
 				3EBC092F243CCFDB00A2032C /* UnsplashService */,
@@ -112,6 +118,25 @@
 				3EBC0933243CCFDB00A2032C /* ImaggaService.swift */,
 			);
 			path = ImaggaService;
+			sourceTree = "<group>";
+		};
+		AC75EEB6243CE2580036763F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC75EEB7243CE2820036763F /* PaletteViewController.swift */,
+				ACA5E105243CF52200560965 /* PaletteTableViewCell.swift */,
+				ACA5E107243D03BA00560965 /* ColorPaletteView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ACA5E100243CECB100560965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5E101243CECD900560965 /* UIViewExtension.swift */,
+				ACA5E103243CF1E500560965 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBC0920243CCF6700A2032C /* LaunchScreen.storyboard in Resources */,
-				3EBC092A243CCFB000A2032C /* Main.storyboard in Resources */,
 				3EBC091D243CCF6700A2032C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,14 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EBC092B243CCFB000A2032C /* ViewController.swift in Sources */,
+				AC75EEB8243CE2820036763F /* PaletteViewController.swift in Sources */,
 				3EBC0937243CCFDC00A2032C /* UnsplashService.swift in Sources */,
 				3EBC0935243CCFDC00A2032C /* UnsplashPhoto.swift in Sources */,
 				3EBC0934243CCFDC00A2032C /* ImaggaColor.swift in Sources */,
 				3EBC0936243CCFDC00A2032C /* UnsplashRoute.swift in Sources */,
 				3EBC0938243CCFDC00A2032C /* ImaggaService.swift in Sources */,
+				ACA5E106243CF52200560965 /* PaletteTableViewCell.swift in Sources */,
+				ACA5E102243CECD900560965 /* UIViewExtension.swift in Sources */,
 				3EBC0914243CCF6500A2032C /* AppDelegate.swift in Sources */,
 				3EBC0916243CCF6500A2032C /* SceneDelegate.swift in Sources */,
+				ACA5E108243D03BA00560965 /* ColorPaletteView.swift in Sources */,
+				ACA5E104243CF1E500560965 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
